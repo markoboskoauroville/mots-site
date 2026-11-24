@@ -1,0 +1,54 @@
+{
+  "venue": {
+    "name": "MOTS – Galerija, Scena, Kino, Društveni centar",
+    "building": "Mjesni odbor Trnjanska Savica",
+    "address": "Ulica Vladimira Ruždjaka 21, 10000 Zagreb",
+    "lat": 45.78994,
+    "lon": 15.99595,
+    "aliases": ["MOTS", "Kino MOTS", "Scena MOTS", "Galerija MOTS", "MO Trnjanska Savica", "Vladimira Ruždjaka 21"]
+  },
+  "suppress": [],
+  "overrides": {
+    "evento-uzt4kbhu": {
+      "category": "workshop",
+      "admission": "Ulaz slobodan (organizator: sve aktivnosti festivala su besplatne)",
+      "notes": "Datum nije usklađen: opis na evento.sh navodi 25. 11. 2026., a oznaka događaja 26. 11. 2026. Prijava nije navedena. Radionica za osnovnoškolce i srednjoškolce (mentor Jan Mišković)."
+    }
+  },
+  "events": [
+    {
+      "id": "bs-sng-2026-pocetna",
+      "title": "Samo nebo nam je granica – početna filmska radionica (54+)",
+      "start": "2026-09-28", "end": "2026-10-02", "time_confirmed": false,
+      "category": "workshop", "organizer": "Bacači sjenki",
+      "admission": "Besplatno; prijava putem prijavnice (prednost umirovljenici i nezaposleni)",
+      "registration_url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/",
+      "description": "Besplatna filmska radionica za osobe starije od 54 godine u Galeriji MOTS. Nije potrebno predznanje.",
+      "source_name": "bacaci-sjenki.hr",
+      "url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/"
+    },
+    {
+      "id": "bs-sng-2026-napredna",
+      "title": "Samo nebo nam je granica – napredna filmska radionica (54+)",
+      "start": "2026-10-05", "end": "2026-10-09", "time_confirmed": false,
+      "category": "workshop", "organizer": "Bacači sjenki",
+      "admission": "Besplatno; prijava putem prijavnice",
+      "registration_url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/",
+      "description": "Druga razina filmske radionice u Galeriji MOTS.",
+      "source_name": "bacaci-sjenki.hr",
+      "url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/"
+    },
+    {
+      "id": "bs-sng-2026-majstorska",
+      "title": "Samo nebo nam je granica – majstorska filmska radionica (54+)",
+      "start": "2026-10-12", "end": "2026-10-16", "time_confirmed": false,
+      "category": "workshop", "organizer": "Bacači sjenki",
+      "admission": "Besplatno; prijava putem prijavnice",
+      "registration_url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/",
+      "description": "Treća razina filmske radionice u Galeriji MOTS. 14. 10. nema radionice.",
+      "notes": "14. 10. 2026. nema radionice.",
+      "source_name": "bacaci-sjenki.hr",
+      "url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/"
+    }
+  ]
+}

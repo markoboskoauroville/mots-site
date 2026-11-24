@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MOTS – Galerija, Scena, Kino, Društveni centar · Program</title>
+<meta name="description" content="Mjesečni program MOTS-a u Mjesnom odboru Trnjanska Savica, Zagreb: izložbe, film, predstave, radionice i događanja u zajednici. Sastavlja se automatski.">
+<meta name="theme-color" content="#f4efe6" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#16140f" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23c8401b'/%3E%3Ctext x='16' y='22' font-family='Georgia,serif' font-weight='700' font-size='15' text-anchor='middle' fill='%23fff'%3EM%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#program" data-i18n="skip">Preskoči na program</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="brand" href="#" aria-label="MOTS">
+      <span class="brand-mark" aria-hidden="true">M</span>
+      <span class="brand-text"><strong>MOTS</strong><small data-i18n="tagline">Galerija · Scena · Kino · Društveni centar</small></span>
+    </a>
+    <nav class="nav" aria-label="Glavna navigacija">
+      <a href="#program" data-i18n="nav_program">Program</a>
+      <a href="#prostor" data-i18n="nav_about">O prostoru</a>
+      <a href="#izvori" data-i18n="nav_sources">Izvori</a>
+      <button id="lang" class="lang" type="button" aria-label="Language / Jezik">EN</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap" aria-labelledby="h-title">
+    <p class="eyebrow" data-i18n="eyebrow">Mjesni odbor Trnjanska Savica · Zagreb</p>
+    <h1 id="h-title" data-i18n="h1">Što se događa u MOTS-u</h1>
+    <p class="lede" data-i18n="lede">Izložbe, film, predstave, radionice i susreti u kvartu. Program se sam slaže mjesec po mjesec iz javnih izvora.</p>
+  </section>
+
+  <section id="program" class="wrap program" aria-label="Program">
+    <div class="controls">
+      <div class="monthnav" role="group" aria-label="Mjesec">
+        <button id="prev" class="icon-btn" type="button" aria-label="Prethodni mjesec">‹</button>
+        <h2 id="month-title" aria-live="polite">—</h2>
+        <button id="next" class="icon-btn" type="button" aria-label="Sljedeći mjesec">›</button>
+        <button id="today" class="ghost" type="button" data-i18n="today">Danas</button>
+      </div>
+      <div class="seg" role="group" aria-label="Prikaz">
+        <button id="v-month" type="button" aria-pressed="true" data-i18n="v_month">Mjesec</button>
+        <button id="v-30" type="button" aria-pressed="false" data-i18n="v_30">Sljedećih 30 dana</button>
+      </div>
+    </div>
+    <div id="filters" class="filters" role="group" aria-label="Kategorije"></div>
+
+    <div id="grid-wrap" class="grid-wrap">
+      <div id="grid" class="grid" role="grid" aria-label="Kalendar"></div>
+    </div>
+
+    <div id="list" class="list" aria-live="polite"></div>
+    <p id="legend-note" class="fineprint"></p>
+  </section>
+
+  <section id="prostor" class="wrap about" aria-labelledby="h-about">
+    <h2 id="h-about" data-i18n="about_h">O prostoru</h2>
+    <div class="about-grid">
+      <div>
+        <p data-i18n="about_p1">MOTS nema vlastitu internetsku stranicu. Galerija, scena, kino i društveni centar djeluju unutar zgrade Mjesnog odbora Trnjanska Savica, a organizatori program objavljuju pod različitim nazivima. Zato ova stranica skuplja sve na jednom mjestu.</p>
+        <address>
+          <strong>Mjesni odbor Trnjanska Savica</strong><br>
+          Ulica Vladimira Ruždjaka 21<br>10000 Zagreb<br>
+          <a href="https://www.openstreetmap.org/?mlat=45.78994&amp;mlon=15.99595#map=18/45.78994/15.99595" rel="noopener" data-i18n="map">Karta (OpenStreetMap)</a>
+        </address>
+        <p class="aka"><span data-i18n="aka">Nazivi pod kojima se program objavljuje:</span>
+          <span class="pill">MOTS</span><span class="pill">Kino MOTS</span><span class="pill">Scena MOTS</span><span class="pill">Galerija MOTS</span><span class="pill">MO Trnjanska Savica</span></p>
+      </div>
+      <figure class="map">
+        <iframe title="Karta" loading="lazy" referrerpolicy="no-referrer"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=15.9899%2C45.7865%2C16.0020%2C45.7933&amp;layer=mapnik&amp;marker=45.78994%2C15.99595"></iframe>
+      </figure>
+    </div>
+  </section>
+
+  <section id="izvori" class="wrap sources" aria-labelledby="h-src">
+    <h2 id="h-src" data-i18n="src_h">Kako nastaje program</h2>
+    <p data-i18n="src_p">Svaki dan skripta pregleda javne izvore i zadrži samo ono što je održano u MOTS-u ili na adresi Vladimira Ruždjaka 21. Stranica na početku svakog mjeseca sama otvara novi mjesec. Što izvor ne navede (vrijeme, prijava), ovdje piše kao nepotvrđeno.</p>
+    <ul class="src-list">
+      <li><a href="https://evento.sh/zagreb" rel="noopener">evento.sh/zagreb</a> <span data-i18n="src_evento">gradski portal događanja (automatski)</span></li>
+      <li><a href="https://teatarpocoloco.hr/" rel="noopener">Teatar Poco Loco</a> <span data-i18n="src_poco">dječje predstave na Sceni MOTS (automatski)</span></li>
+      <li><a href="https://bacaci-sjenki.hr/" rel="noopener">Bacači sjenki</a> <span data-i18n="src_bacaci">filmske i medijske radionice (ručni pregled)</span></li>
+      <li><a href="https://kvartovikulture.hr/" rel="noopener">Zagrebački kvartovi kulture</a> <span data-i18n="src_kvarti">sezonski programi (ručni pregled)</span></li>
+      <li><a href="https://www.kinoholik.hr/" rel="noopener">Kinoholik</a> <span data-i18n="src_kino">filmski raspored (ručni pregled)</span></li>
+    </ul>
+    <p id="updated" class="fineprint"></p>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-in">
+    <span>mots.markobosko.org</span>
+    <span data-i18n="foot">Podaci su iz javnih izvora; moguće su izmjene programa. Provjerite kod organizatora.</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

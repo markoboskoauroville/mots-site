@@ -1,0 +1,79 @@
+{
+  "generated": "2026-11-24T13:28",
+  "venue": {
+    "name": "MOTS – Galerija, Scena, Kino, Društveni centar",
+    "building": "Mjesni odbor Trnjanska Savica",
+    "address": "Ulica Vladimira Ruždjaka 21, 10000 Zagreb",
+    "lat": 45.78994,
+    "lon": 15.99595,
+    "aliases": [
+      "MOTS",
+      "Kino MOTS",
+      "Scena MOTS",
+      "Galerija MOTS",
+      "MO Trnjanska Savica",
+      "Vladimira Ruždjaka 21"
+    ]
+  },
+  "events": [
+    {
+      "id": "bs-sng-2026-pocetna",
+      "title": "Samo nebo nam je granica – početna filmska radionica (54+)",
+      "start": "2026-09-28",
+      "end": "2026-10-02",
+      "time_confirmed": false,
+      "category": "workshop",
+      "organizer": "Bacači sjenki",
+      "admission": "Besplatno; prijava putem prijavnice (prednost umirovljenici i nezaposleni)",
+      "registration_url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/",
+      "description": "Besplatna filmska radionica za osobe starije od 54 godine u Galeriji MOTS. Nije potrebno predznanje.",
+      "source_name": "bacaci-sjenki.hr",
+      "url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/"
+    },
+    {
+      "id": "bs-sng-2026-napredna",
+      "title": "Samo nebo nam je granica – napredna filmska radionica (54+)",
+      "start": "2026-10-05",
+      "end": "2026-10-09",
+      "time_confirmed": false,
+      "category": "workshop",
+      "organizer": "Bacači sjenki",
+      "admission": "Besplatno; prijava putem prijavnice",
+      "registration_url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/",
+      "description": "Druga razina filmske radionice u Galeriji MOTS.",
+      "source_name": "bacaci-sjenki.hr",
+      "url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/"
+    },
+    {
+      "id": "bs-sng-2026-majstorska",
+      "title": "Samo nebo nam je granica – majstorska filmska radionica (54+)",
+      "start": "2026-10-12",
+      "end": "2026-10-16",
+      "time_confirmed": false,
+      "category": "workshop",
+      "organizer": "Bacači sjenki",
+      "admission": "Besplatno; prijava putem prijavnice",
+      "registration_url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/",
+      "description": "Treća razina filmske radionice u Galeriji MOTS. 14. 10. nema radionice.",
+      "notes": "14. 10. 2026. nema radionice.",
+      "source_name": "bacaci-sjenki.hr",
+      "url": "https://bacaci-sjenki.hr/samo-nebo-nam-je-granica-filmske-radionice-za-gradane-54/"
+    },
+    {
+      "id": "evento-uzt4kbhu",
+      "title": "Zeleni influenceri – mladi pokreću održivi kvart",
+      "start": "2026-11-26T10:00",
+      "end": "2026-11-26T12:00",
+      "time_confirmed": true,
+      "category": "workshop",
+      "organizer": "Jeunesses Musicales Croatia, Pogon - Zagrebački centar za nezavisnu kulturu i mlade",
+      "admission": "Ulaz slobodan (organizator: sve aktivnosti festivala su besplatne)",
+      "registration_url": null,
+      "description": "Kako prenijeti poruku o održivosti vršnjacima, susjedima i kvartu? Kroz praktičan rad zajedno ćemo razvijati ideje za male ekološke akcije u javnom prostoru.\nFestival Glazba za ekološki osviještene uši u organizaciji Hrvatske glazbene mladeži spaja glazbu, ekologiju i održivi način života. Treće izdanje po prvi put traje cijelu sezonu, od studenog 2026. do travnja 2027., a odvija se u zagrebačkom Trnju. Program donosi koncerte na kojima uz glazbenike sviraju biljke, edukativne radionice i mobilne umjetničke instalacije. Završni festivalski vikend održava se 23. i 24. travnja 2027. u dvorištu P",
+      "source_name": "evento.sh",
+      "url": "https://evento.sh/zagreb/uzt4kbhu",
+      "origin_url": "https://www.facebook.com/events/1824489368810599",
+      "notes": "Datum nije usklađen: opis na evento.sh navodi 25. 11. 2026., a oznaka događaja 26. 11. 2026. Prijava nije navedena. Radionica za osnovnoškolce i srednjoškolce (mentor Jan Mišković)."
+    }
+  ]
+}

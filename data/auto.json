@@ -1,0 +1,24 @@
+{
+  "fetched": "2026-11-24T13:28",
+  "events": [
+    {
+      "id": "evento-uzt4kbhu",
+      "title": "Zeleni influenceri – mladi pokreću održivi kvart",
+      "start": "2026-11-26T10:00",
+      "end": "2026-11-26T12:00",
+      "time_confirmed": true,
+      "category": "workshop",
+      "organizer": "Jeunesses Musicales Croatia, Pogon - Zagrebački centar za nezavisnu kulturu i mlade",
+      "admission": null,
+      "registration_url": null,
+      "description": "Kako prenijeti poruku o održivosti vršnjacima, susjedima i kvartu? Kroz praktičan rad zajedno ćemo razvijati ideje za male ekološke akcije u javnom prostoru.\nFestival Glazba za ekološki osviještene uši u organizaciji Hrvatske glazbene mladeži spaja glazbu, ekologiju i održivi način života. Treće izdanje po prvi put traje cijelu sezonu, od studenog 2026. do travnja 2027., a odvija se u zagrebačkom Trnju. Program donosi koncerte na kojima uz glazbenike sviraju biljke, edukativne radionice i mobilne umjetničke instalacije. Završni festivalski vikend održava se 23. i 24. travnja 2027. u dvorištu P",
+      "source_name": "evento.sh",
+      "url": "https://evento.sh/zagreb/uzt4kbhu",
+      "origin_url": "https://www.facebook.com/events/1824489368810599"
+    }
+  ],
+  "report": {
+    "evento": "ok, 1 at venue",
+    "pocoloco": "ok, 0 at venue"
+  }
+}
