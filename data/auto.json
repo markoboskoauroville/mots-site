@@ -1,5 +1,5 @@
 {
-  "fetched": "2026-11-26T13:54",
+  "fetched": "2026-11-27T13:52",
   "events": [
     {
       "id": "evento-uzt4kbhu",
@@ -18,7 +18,7 @@
     }
   ],
   "report": {
-    "evento": "ok, 1 at venue",
+    "evento": "ok, 0 at venue",
     "pocoloco": "ok, 0 at venue"
   }
 }
